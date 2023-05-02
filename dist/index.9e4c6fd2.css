@@ -1,0 +1,47 @@
+.header {
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-item > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-item > ul > li {
+  padding: 20px;
+}
+
+.logo {
+  width: 155px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.card > h2, .card > h1 {
+  text-align: center;
+}
+
+.card-item {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 45px;
+  display: flex;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px #0003;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
